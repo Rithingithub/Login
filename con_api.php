@@ -6,9 +6,9 @@
     $ip = $_SERVER['REMOTE_ADDR'];
     
     $servername = "localhost";
-    $username = "id18336031_rithinbrowser";
-    $password = "Thekhil$#2022";
-    $dbname = "id18336031_rithinbrow";
+    $username = "root";
+    $password = "";
+    $dbname = "url";
 
     // Create connection
     $conn = new mysqli($servername, $username, $password, $dbname);
