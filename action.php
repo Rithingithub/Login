@@ -1,9 +1,9 @@
 <?php
 
 $servername = "localhost";
-$username = "id18336031_rithinlogin";
-$password = "Thekhil456##";
-$dbname = "id18336031_login";        
+$username = "root";
+$password = "";
+$dbname = "login";        
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
 if(isset($_POST['user'])){
